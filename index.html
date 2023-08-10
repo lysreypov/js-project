@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App | JS Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather In</h1>
+      <div class="weather-container">
+        <div class="search-bar">
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Search for a city"
+          />
+          <div class="search-icon">
+            <img src="./assets/search.png" alt="Search Icon" />
+          </div>
+        </div>
+        <span class="error">Invalid city name!</span>
+        <div class="weather-content">
+          <div class="content">
+            <img src="./assets/clear.png" alt="Weather" />
+            <span class="date"></span>
+            <h1 class="temperature"></h1>
+            <p class="city"></p>
+          </div>
+          <div class="detail-info">
+            <div class="percentage">
+              <img src="./assets/humidity.png" alt="humidity" />
+              <div class="text">
+                <h2 class="humidity"></h2>
+                <p>Humidity</p>
+              </div>
+            </div>
+            <div class="speed">
+              <img src="./assets/wind.png" alt="wind" />
+              <div class="text">
+                <h2 class="wind"></h2>
+                <p>Wind Speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
