@@ -4,4 +4,4 @@ Weather App is the app that enable the user to search for the weather in the cit
 ## Demo
 Click here to search for the weather in your city: https://lysreypov.github.io/js-project/
 
-![Uploading weather-app.png…]()
+![weather-app](https://github.com/lysreypov/js-project/assets/59767158/9d867ff6-afb7-4450-b428-945bdf13ec4c)
