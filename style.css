@@ -138,4 +138,8 @@ h2 {
   .container h1 {
     font-size: 3.5rem;
   }
+
+  .weather-container {
+    padding: 1rem;
+  }
 }
