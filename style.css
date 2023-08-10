@@ -97,6 +97,10 @@ h1 {
   font-size: 4rem;
 }
 
+h2 {
+  font-size: 1.25rem;
+}
+
 .detail-info {
   margin-top: 30px;
   display: flex;
